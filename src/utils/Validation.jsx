@@ -6,7 +6,7 @@ export const checkValidateData = (email, password) => {
 
   if (!isEmailValid) return "Please use a valid Email id.";
   if (!isPasswordValid)
-    return "Password length must be 8, containing atlease one uppercase and one special character. ";
+    return "Password must be 8 characters, with 1 uppercase and 1 special character.";
 
   return null;
 };

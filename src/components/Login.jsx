@@ -76,8 +76,7 @@ const Login = () => {
           const errorCode = error.code;
           const errorMessage = error.message;
           setErrorMessage(
-            (error.message =
-              "User already exists. Please use a different email id.")
+            (error.message = "User already exists. Please use a different ID.")
           );
           // ..
         });
@@ -118,7 +117,7 @@ const Login = () => {
         onSubmit={(e) => e.preventDefault()}
         className="p-4 bg-black/[0.8] absolute w-[55%] sm:w-[30%] sm:my-12 mt-52 mx-auto right-0 left-0 text-white bg-opacity-90 rounded-lg"
       >
-        <h1 className=" sm:font-bold text-3xl py-4">
+        <h1 className=" sm:font-bold text-3xl py-3">
           {isSignInForm ? "Sign In" : "Sign Up"}
         </h1>
 
@@ -145,18 +144,16 @@ const Login = () => {
           className="p-4 my-2 w-full bg-gray-700 rounded-lg"
         />
 
-        <p className="text-red-500 font-bold text-md md:text-lg py-2">
-          {errorMessage}
-        </p>
+        <p className="text-red-500 font-bold  pt-2">{errorMessage}</p>
 
         <button
-          className="p-4 my-6 bg-red-700 w-full rounded-lg"
+          className="p-4 my-4 bg-red-700 w-full rounded-lg"
           onClick={handleButtonClick}
         >
           {isSignInForm ? "Sign In" : "Sign Up"}
         </button>
 
-        <div className="py-4 cursor-pointer" onClick={toggleSignInForm}>
+        <div className="py-2 cursor-pointer" onClick={toggleSignInForm}>
           {isSignInForm ? (
             <p className="text-zinc-400">
               New to Netflix?
