@@ -10,7 +10,7 @@ A web-based platform where you can discover and explore movies and series simila
 4. Dynamic search using TMDB API with which you can search for variety of movies of your choices.
 5. Backend and User authentication using Firebase for smooth sign in and sign out feature.
 
-## Demo
+## Demo - popcorn-times.vercel.app
 
 # contructing the app
 
