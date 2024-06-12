@@ -1,4 +1,4 @@
-# Netflix
+# Popcorn Times
 
 A web-based platform where you can discover and explore movies and series similar to netflix or you can say Netflix itself!
 

@@ -156,7 +156,7 @@ const Login = () => {
         <div className="py-2 cursor-pointer" onClick={toggleSignInForm}>
           {isSignInForm ? (
             <p className="text-zinc-400">
-              New to Netflix?
+              New to Popcorn Times?
               <span className="text-white">Sign Up Now.</span>
             </p>
           ) : (
